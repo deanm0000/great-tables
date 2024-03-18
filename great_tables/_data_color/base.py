@@ -11,7 +11,9 @@ from great_tables._tbl_data import is_na, DataFrameLike
 from great_tables.style import fill, text
 from great_tables.loc import body
 import numpy as np
-from mizani.palettes import gradient_n_pal
+
+# from mizani.palettes import gradient_n_pal
+from great_tables.palettes import gradient_n_pal
 
 if TYPE_CHECKING:
     from great_tables._types import GTSelf
